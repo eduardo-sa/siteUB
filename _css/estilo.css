@@ -1,0 +1,91 @@
+@charset "utf-8";
+
+/* Formatação do body */
+body{
+	background-color: red;
+}
+
+/* Formatação da DIV central */
+div#main{
+	display: block;
+	position: relative;
+	left: 200px;
+	background-color: white;
+	width: 950px;
+	margin-top: -5px;
+}
+/* Menu */
+header#cabecalho{
+	border-bottom: 1px #606060 solid;
+	height: 100px;
+}
+header#cabecalho h1{
+	display: block;
+	position: absolute;
+	top: 30px;
+	left: 400px;
+}
+nav#menu{
+	display: block;
+}
+nav#menu ul{
+	list-style: none;
+	text-transform: uppercase;
+	position: absolute;
+	top: -20px;
+	left: 420px;
+}
+nav#menu li{
+	display: inline-block;
+	background-color: #dddddd;
+	padding: 10px;
+	margin: 2px;
+	transition: background-color 1s;
+}
+nav#menu li:hover{
+	background-color: #606060;
+}
+/* Formatação dotitulo do menu */
+nav#menu h1{
+	display: none;
+}
+/* Formatação dos links do menu */
+nav#menu a{
+	color: #000000;
+	text-decoration: none;
+}
+nav#menu a:hover{
+	color: #ffffff;
+	text-decoration: underline;
+}
+/* formatação da seção */
+section#conteudo{
+	display: block;
+	width: 450px;
+	float: left;
+	border-right: 1px solid black;
+	padding: 10px;
+}
+/* formatação do aside */
+aside#lateral{
+	display: block;
+	width: 450px;
+	float: right;
+	padding: 10px;	
+}
+/* formatação dos artigos */
+article{
+	font-size: 15pt;
+	color: red;
+	background-color: lightblue;
+	padding: 5px 0px 5px 10px;/*em cima, direita, embaixo e esquerda */
+	margin: 10px 0px 10px 0px;/*em cima, direita, embaixo e esquerda */
+}
+/* formatação do rodapé */
+footer#rodape{
+	clear: both;
+	border-top: 1px solid black;
+}
+footer#rodape p{
+	text-align: center;
+}
