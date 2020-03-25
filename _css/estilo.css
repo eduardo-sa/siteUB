@@ -75,11 +75,36 @@ aside#lateral{
 }
 /* formatação dos artigos */
 article{
-	font-size: 15pt;
-	color: red;
-	background-color: lightblue;
+	background-color: violet;
 	padding: 5px 0px 5px 10px;/*em cima, direita, embaixo e esquerda */
 	margin: 10px 0px 10px 0px;/*em cima, direita, embaixo e esquerda */
+}
+/* formatação dos titulos do artigo */
+article h1{
+	font-size: 20pt;
+	color: red;
+	background-color: lightblue;
+	width: 430px;
+}
+
+/* formatação dos textos do artigo */
+article p{
+	font-size: 13pt;
+	color: red;
+	text-indent: 25px;
+}
+/* formatação das imagens */
+article img{
+	display: block;
+	position: relative;
+	left: 20px;
+}
+/* formatação dos videos do artigo */
+article video{
+	display: block;
+	position: relative;
+	top: 10px;
+	left: 20px;
 }
 /* formatação do rodapé */
 footer#rodape{
